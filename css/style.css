@@ -1,0 +1,59 @@
+/* start global */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+/* end global */
+
+/* start navbar */
+
+.navbar{
+
+}
+.navbar .brand{
+    float: left;
+    width: 40%;
+    text-transform: uppercase
+}
+.navbar .links{
+    float: left;
+    width: 60%;
+    margin-top: 15px
+}
+.navbar .links li{
+    display: inline-block;
+    padding: 10px 15px;
+    text-transform: capitalize;
+    border-bottom: 2px solid transparent;
+}
+.navbar .links li.active,
+.navbar .links li:hover{
+    color: #19bc9c;
+    border-bottom: 2px solid #19bc9c;
+}
+/* end navbar */
+
+
+
+
+
+/* start my framework */
+.clearfix{
+    clear: both 
+}
+
+
+/* end my framework */
