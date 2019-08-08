@@ -45,10 +45,18 @@ ul{
     text-transform: capitalize;
     border-bottom: 2px solid transparent;
 }
+.navbar .links li a{
+    text-decoration: none;
+    color: #fff
+}
 .navbar .links li.active,
 .navbar .links li:hover{
     color: #19bc9c;
     border-bottom: 2px solid #19bc9c;
+}
+.navbar .links li a.active,
+.navbar .links li a:hover{
+    color: #19bc9c;
 }
 .header .bx-wrapper {
     box-shadow: none;
@@ -96,14 +104,59 @@ ul{
 
 /* end header */
 
+/* start our services */
+.services{
+    height: 2000px;
+    padding: 80px 20px
+}
+.services h2{
+    margin: 0 0 50px;
+    text-transform: capitalize;
+    font-weight: normal
+}
+.services .item{
+    float: left;
+    width: 33.33333%;
+    margin-bottom: 20px
+}
+.services .item i{
+    color: #19bc9c;
+    float: left;
+    width: 17%;
+    margin-right: 8%;
+    margin-top: 20px
+}
+.services .item .info{
+    float: left;
+    width: 70%
+}
+.services .item .info h3{
+    font-weight: normal;
+    color: #585353;
+    text-transform: capitalize;
+    margin-bottom: 10px
+}
+.services .item .info p{
+    margin-top: 0;
+    color: #888
+}
 
-
-
+/* end our services */
 
 /* start my framework */
 .clearfix{
     clear: both 
 }
-
-
+.spcial-h{
+    position: relative;
+} 
+.spcial-h::after{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 40px;
+    left: 0;
+    width: 40px;
+    border-bottom: 2px solid #333
+}
 /* end my framework */

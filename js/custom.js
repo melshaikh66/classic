@@ -21,8 +21,9 @@ $(function() {
 
   // add active class on links
 
-  $(".links li").on("click", function() {
+  $(".links li a").on("click", function() {
     $(this)
+      .parent()
       .addClass("active")
       .siblings()
       .removeClass("active");
@@ -39,5 +40,16 @@ $(function() {
   // trriger bx slider
   mySlider.bxSlider({
     pager: false
+  });
+
+  // smooth scroll to div
+
+  $(".links li a").click(function() {
+    $("html, body").animate(
+      {
+        scrollTop: $("#" + $(this).data("value")).offset().top
+      },
+      1000
+    );
   });
 });
