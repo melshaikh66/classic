@@ -52,4 +52,33 @@ $(function() {
       1000
     );
   });
+
+  // our auto slider code
+  (function autoSlider() {
+    $(".slider2 .active").each(function() {
+      if (!$(this).is(":last-child")) {
+        $(this)
+          .delay(3000)
+          .fadeOut(1000, function() {
+            $(this)
+              .removeClass("active")
+              .next()
+              .addClass("active")
+              .fadeIn(1000);
+            autoSlider();
+          });
+      } else {
+        $(this)
+          .delay(3000)
+          .fadeOut(1000, function() {
+            $(this).removeClass("active");
+            $(".slider2 div")
+              .eq(0)
+              .addClass("active")
+              .fadeIn(1000);
+            autoSlider();
+          });
+      }
+    });
+  })();
 });
