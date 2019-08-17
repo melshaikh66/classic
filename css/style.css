@@ -279,7 +279,8 @@ ul{
     position: relative;
 }
 .our-projects .gallary .raw > div img{
-    width: 100%
+    width: 100%;
+    height: 100%;
 }
 .our-projects .gallary .raw > div .over{
     background-color:rgba(25, 188, 156, .9);
