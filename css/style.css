@@ -192,7 +192,7 @@ ul{
 
 /* start testimonials */
 .test{
-    background: url("/images/keyboard.jpg");
+    background: url("../images/007.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -201,7 +201,6 @@ ul{
     position: relative;
     text-align: center;
     padding: 80px 0;
-
 }
 .test .t-overlay{
     position: absolute;
@@ -279,7 +278,6 @@ ul{
 }
 .our-projects .gallary .raw > div img{
     width: 100%;
-    min-height: 231px;
 }
 .our-projects .gallary .raw > div .over{
     background-color:rgba(25, 188, 156, .9);
