@@ -306,7 +306,23 @@ ul{
 .our-projects .gallary .raw > div:hover .heart{
     display: block
 }
+.our-projects .shuffle li{
+    cursor: pointer;
+}
 /* end our projects */
+
+/* start footer */
+.footer{
+    background-color: #232323;
+    color: #6c6c6c;
+    padding: 40px 0;
+    overflow: hidden;
+}
+.footer .col{
+    width: 25%;
+    float: left;
+}
+/* end footer */
 /* start my framework */
 .clearfix{
     clear: both 

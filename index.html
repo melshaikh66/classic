@@ -178,29 +178,29 @@
     <div id="port" class="our-projects">
         <div class="container">
             <h2 class="spcial-h">projects</h2>
-            <ul>
-                <li class="selected">all</li>
-                <li>mobile</li>
-                <li>coffee</li>
-                <li>video</li>
+            <ul class="shuffle">
+                <li class="selected" data-filter="all">all</li>
+                <li data-filter=".mobile">mobile</li>
+                <li data-filter=".coffee">coffee</li>
+                <li data-filter=".video">video</li>
             </ul>
-            <div class="gallary">
+            <div id="container" class="gallary">
                 <div class="raw">
-                    <div>
+                    <div class="mix coffee">
                         <div class="over">view more</div>
                         <span class="heart">
                             <i class="far fa-heart"></i> 14
                         </span>
                         <img src="./images/001.jpeg" alt="ay haga">
                     </div>
-                    <div>
+                    <div class="mix mobile">
                         <div class="over">view more</div>
                         <span class="heart">
                             <i class="far fa-heart"></i> 19
                         </span>
                          <img src="./images/002.jpeg" alt="">
                     </div>
-                    <div>
+                    <div class="mix coffee">
                         <div class="over">view more</div>
                         <span class="heart">
                             <i class="far fa-heart"></i> 20
@@ -209,21 +209,21 @@
                      </div>
                 </div>
                 <div class="raw">
-                    <div>
+                    <div class="mix video">
                         <div class="over">view more</div>
                         <span class="heart">
                             <i class="far fa-heart"></i> 9
                         </span>
                          <img src="./images/004.jpeg" alt="">
                     </div>
-                    <div>
+                    <div class="mix video">
                         <div class="over">view more</div>
                         <span class="heart">
                             <i class="far fa-heart"></i> 7
                         </span>
                         <img src="./images/005.jpeg" alt="">
                     </div>
-                    <div>
+                    <div class="mix mobile">
                         <div class="over">view more</div>
                         <span class="heart">
                             <i class="far fa-heart"></i> 44
@@ -237,8 +237,45 @@
         </div>
     </div>
     <!-- end our projects -->
+    <!-- start footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="col">
+                <h2>about classic</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, consequuntur! Voluptatum voluptate quisquam iste, pariatur tempora voluptas labore, praesentium atque temporibus dignissimos voluptatibus hic qui sequi eius ab laudantium quae!</p>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-google-plus-square"></i>
+                <i class="fab fa-twitter-square"></i>
+            </div>
+            <div class="col">
+                <h2>tags</h2>
+                <span>html</span>
+                <span>css</span>
+                <span>javascript</span>
+                <span>jquery</span>
+                <span>responsive</span>
+                <span>art</span>
+            </div>
+            <div class="col">
+                <h2>recent posts</h2>
+            </div>
+            <div class="col">
+                <h2>blog catigories</h2>
+                <ul>
+                    <li>agancy</li>
+                    <li>business</li>
+                    <li>multi propose</li>
+                    <li>audio</li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+            <div class="copyright">copyright &copy; 2019 all rights reserved </div>
+        </div>
+    </div>
+    <!-- end footer -->
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
     <script src="js/custom.js"></script>
 </body>
 </html>

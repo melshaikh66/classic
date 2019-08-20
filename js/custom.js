@@ -81,4 +81,26 @@ $(function() {
       }
     });
   })();
+
+  //adjust shuffle links
+
+  $(".shuffle li").click(function() {
+    $(this)
+      .addClass("selected")
+      .siblings()
+      .removeClass("selected");
+  });
+});
+
+//trigger mixItUp
+
+var mixer = mixitup("#container");
+
+var mixer = mixitup(containerEl, {
+  selectors: {
+    target: ".blog-item"
+  },
+  animation: {
+    duration: 300
+  }
 });
