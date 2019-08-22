@@ -16,6 +16,9 @@ ul{
 h2, h3, h4 {
     font-weight: normal
 }
+.navbar, .header, .services, .our-team, .test, .our-projects, .footer {
+    min-width: 1200px;
+}
 /* end global */
 
 /* start navbar */
