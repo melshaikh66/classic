@@ -4,9 +4,6 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-body{
-
-}
 .container{
     width: 1200px;
     margin: auto;
@@ -15,6 +12,9 @@ ul{
     list-style: none;
     margin: 0;
     padding: 0
+}
+h2, h3, h4 {
+    font-weight: normal
 }
 /* end global */
 
@@ -78,7 +78,8 @@ ul{
 .header .slider li h2{
     font-size: 60px;
     text-transform: capitalize;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    font-weight: bold
 }
 .header .slider li h2 span{
     color: #19bc9c
@@ -111,7 +112,6 @@ ul{
 .services h2{
     margin: 0 0 50px;
     text-transform: capitalize;
-    font-weight: normal
 }
 .services .item{
     float: left;
@@ -130,7 +130,6 @@ ul{
     width: 70%
 }
 .services .item .info h3{
-    font-weight: normal;
     color: #585353;
     text-transform: capitalize;
     margin-bottom: 10px
@@ -181,7 +180,6 @@ ul{
 }
 .our-team h2{
     text-transform: capitalize;
-    font-weight: normal;
     padding: 0 0 15px
 }
 .our-team .box:not(:first-child) img{
@@ -243,7 +241,6 @@ ul{
     padding: 80px 0;
 }
 .our-projects h2{
-    font-weight: normal;
     text-transform: capitalize
 }
 .our-projects ul{
@@ -316,12 +313,58 @@ ul{
     background-color: #232323;
     color: #6c6c6c;
     padding: 40px 0;
-    overflow: hidden;
+    overflow: hidden
 }
 .footer .col{
     width: 25%;
     float: left;
 }
+.footer .col h2 {
+    color: #fff;
+    text-transform: capitalize
+}
+.footer .col p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+.footer .col i {
+    display: inline-block;
+    width: 40px;
+    padding: 10px 0;
+    color: #ccc
+}
+.footer .tags span {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #797979;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    text-transform: capitalize;
+    color: #ccc
+}
+.footer .recent div {
+    overflow: hidden;
+    margin-bottom: 15px
+}
+.footer .recent div img {
+    float: left;
+    margin-right: 10px
+}
+.footer .recent div h4 {
+    margin: 8px 0;
+    color: #ccc;
+}
+.footer .blog ul li {
+    padding: 15px;
+    color: #ccc;
+    border-bottom: 1px solid #979797;
+    text-transform: capitalize
+}
+.footer .copyright {
+    margin-top: 30px;
+    text-transform: capitalize
+}
+
 /* end footer */
 /* start my framework */
 .clearfix{

@@ -90,6 +90,14 @@ $(function() {
       .siblings()
       .removeClass("selected");
   });
+
+  // trigger nice scroll
+
+  $("html").niceScroll({
+    cursorcolor: "#19bc9c",
+    cursorwidth: "8px",
+    cursorborder: "none"
+  });
 });
 
 //trigger mixItUp
